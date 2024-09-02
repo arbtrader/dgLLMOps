@@ -5,12 +5,12 @@ easy to use examples that you can build upon. The examples use Python with
 Jupyter Notebooks and CSV files. The vector database uses the Qdrant database
 which can run in-memory.
 
-## Setup your environment
+## Setup  environment
 
 This example can run in Codespaces but you can use the following if you are
 cloniing this repository:
 
-**Install the dependencies**
+**Install  dependencies**
 
 Create the virtual environment and install the dependencies:
 
@@ -52,35 +52,32 @@ completion = client.chat.completions.create(
 print(completion.choices[0].message)
 ```
 
-## Lesson 1: Import your data
+## 1: Import data
 
 Learn how to use Pandas to import your data from a CSV file. The data will be used to create the embeddings for the vector database later and you will need to format it as a list of dictionaries.
 
 Notebook: [Managing Data](./examples/1-managing-data/example.ipynb)
 
-## Lesson 2: Create embeddings
+## 2: Create embeddings
 
 Use Sentence Transformers to create the embeddings for your data. This will be used to store the vectors in the Qdrant database. You will verify that the embeddings are created and stored in the database and that a search works correctly
 
 Notebook: [Creating and verifying Embeddings](./examples/2-embeddings/embeddings.ipynb)
 
-## Lesson 3: Create a RAG with LLM and Qdrant using your own data
+## 3: Create a RAG with LLM and Qdrant using data
 
 Use a local LLM with Llamafile or an OpenAI API endpoint to create a RAG with your own data. The end result should be in your own repository containing the complete code for the enhanced RAG pattern based on the example provided.
 
 Notebook: [Applied Rag Notebook](./examples/3-applied-rag/embeddings.ipynb)
 
-## Lesson 4: Practice Lab
+## 4: Practice Lab
 
 Use the [included practice lab](./lab.md) to apply the content you've learned in this week. Follow the steps to create your own repository and apply the requirements to complete the lab.
 
 
-## Course Resources
+## Add'l Resources
 
-If you've completed all these examples and the lab, here are some other courses
-from Coursera you can explore:
-
-
+Explore:
 
 **Large Language Models:**
 
